@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7dda43ce4971c2fe71ade1ef37d7d553",
+    "content-hash": "acff2fca528c730d3ddbdff45da8656c",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3331,6 +3331,65 @@
                 "laravel-dump-server"
             ],
             "time": "2018-10-04T07:22:24+00:00"
+        },
+        {
+            "name": "delvefore/laravel-packager-hermes",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DelveFore/laravel-packager-hermes.git",
+                "reference": "b215f80ca73bfe165f1b1ee4a539b7387372fa0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DelveFore/laravel-packager-hermes/zipball/b215f80ca73bfe165f1b1ee4a539b7387372fa0c",
+                "reference": "b215f80ca73bfe165f1b1ee4a539b7387372fa0c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.1",
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "~7.0",
+                "sempro/phpunit-pretty-print": "^1.0",
+                "sensiolabs/security-checker": "^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "DelveFore\\PackagerHermes\\PackagerHermesServiceProvider"
+                    ],
+                    "aliases": {
+                        "PackagerHermes": "DelveFore\\PackagerHermes\\Facades\\PackagerHermes"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DelveFore\\PackagerHermes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "johntimothybailey",
+                    "email": "social@delvefore.com",
+                    "homepage": "https://github.com/delvefore"
+                }
+            ],
+            "description": "Artisan make Commands when using https://github.com/Jeroen-G/laravel-packager thereby accelerating your development of Laravel Packages. ",
+            "homepage": "https://github.com/delvefore/laravel-packager-hermes",
+            "keywords": [
+                "PackagerHermes",
+                "laravel"
+            ],
+            "time": "2018-12-27T21:08:03+00:00"
         },
         {
             "name": "doctrine/instantiator",

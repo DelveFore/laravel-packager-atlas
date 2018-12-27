@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "delvefore/laravel-packager-atlas",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The foundational example for creating Laravel based packages with Packager and Packager-Hermes",
     "keywords": [
         "framework",
         "laravel"
@@ -16,6 +16,7 @@
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
+        "delvefore/laravel-packager-hermes": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "jeroen-g/laravel-packager": "^2.1",

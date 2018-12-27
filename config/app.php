@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        DelveFore\PackagerHermes\PackagerHermesServiceProvider::class,
 
         /*
          * Application Service Providers...
